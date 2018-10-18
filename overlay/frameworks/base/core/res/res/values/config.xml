@@ -479,4 +479,7 @@
     <string name="config_gpu_clock_path">/sys/kernel/gpu/gpu_clock</string>
     <string name="config_gpu_busy_path">/sys/kernel/gpu/gpu_busy</string>
 
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
 </resources>
