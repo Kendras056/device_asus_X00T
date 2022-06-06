@@ -137,4 +137,5 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.vidc.enc.disable.pq=true \
     vendor.video.disable.ubwc=1 \
     vendor.voice.path.for.pcm.voip=false \
-    debug.sf.early_phase_offset_ns=1500000
+    debug.sf.early_phase_offset_ns=1500000 \
+    debug.hwui.use_buffer_age=false
