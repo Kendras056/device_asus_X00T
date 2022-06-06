@@ -136,4 +136,5 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.vidc.dec.enable.downscalar=0 \
     vendor.vidc.enc.disable.pq=true \
     vendor.video.disable.ubwc=1 \
-    vendor.voice.path.for.pcm.voip=false
+    vendor.voice.path.for.pcm.voip=false \
+    debug.sf.early_phase_offset_ns=1500000
