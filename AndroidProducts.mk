@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X00T.mk
+    $(LOCAL_DIR)/nitrogen_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X00T-user \
-    havoc_X00T-userdebug \
-    havoc_X00T-eng
+    nitrogen_X00T-user \
+    nitrogen_X00T-userdebug \
+    nitrogen_X00T-eng

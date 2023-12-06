@@ -10,18 +10,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common HavocOS stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-WITH_GAPPS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_X00T
+PRODUCT_NAME := nitrogen_X00T
 PRODUCT_DEVICE := X00T
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M1
